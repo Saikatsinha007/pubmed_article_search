@@ -96,5 +96,3 @@ For any issues, feel free to open a new issue in the GitHub repository.
 This project is licensed under the MIT License. See the `LICENSE` file for more details.  
 
 ---  
-
-This README should provide a clear and professional overview of the project. Let me know if you need any modifications!  
