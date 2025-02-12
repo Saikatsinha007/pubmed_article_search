@@ -1,10 +1,10 @@
-# **PubMed Article Search**  
+# 🌟 **PubMed Article Search**  
 
-This project is a PubMed search and retrieval tool that allows users to filter articles by author and topic, and export the results to a CSV file. The tool is designed for researchers and data analysts who require quick and precise access to PubMed articles with user-defined filters.  
+🔍 **PubMed Article Search** is a tool that allows users to search and retrieve PubMed articles, filter by author and topic, and export the results to a CSV file. It is ideal for researchers and data analysts who need precise and filtered access to PubMed data.  
 
 ---
 
-## **Project Structure**  
+## 📁 **Project Structure**  
 
 ```plaintext
 pubmed-article-search/  
@@ -13,17 +13,17 @@ pubmed-article-search/
 ├── pyproject.toml          # Poetry configuration file for dependency management and packaging  
 ├── README.md               # Project documentation  
 └── .gitignore              # Files and directories ignored by Git  
-```
+```  
 
-### **Explanation:**  
-- **`scripts/get_papers_list.py`**: Core script that fetches PubMed articles, filters them based on user input, and exports the results to a CSV file.  
-- **`pyproject.toml`**: Defines the project’s metadata, dependencies, and entry points using Poetry.  
-- **`README.md`**: Provides installation instructions, usage guidelines, and an overview of the project.  
-- **`.gitignore`**: Lists files and directories that should not be tracked by Git.  
+### ✨ **Explanation:**  
+- 📜 **`scripts/get_papers_list.py`**: Core script that fetches PubMed articles, filters them based on user input, and exports the results to a CSV file.  
+- ⚙️ **`pyproject.toml`**: Defines the project’s metadata, dependencies, and entry points using Poetry.  
+- 📄 **`README.md`**: Provides installation instructions, usage guidelines, and an overview of the project.  
+- 🚫 **`.gitignore`**: Lists files and directories that should not be tracked by Git.  
 
 ---
 
-## **Installation and Setup**  
+## 🛠️ **Installation and Setup**  
 
 Follow these steps to install and execute the program:  
 
@@ -35,64 +35,68 @@ Follow these steps to install and execute the program:
 
 ### **2. Install Poetry**  
    Poetry is used for dependency management. Install it with the following commands:  
-   - **Windows**:  
+
+   - 🪟 **Windows**:  
      ```bash
      (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
-     ```
-   - **macOS/Linux**:  
+     ```  
+   - 🍎 **macOS/Linux**:  
      ```bash
      curl -sSL https://install.python-poetry.org | python3 -
-     ```
+     ```  
 
-   Confirm that Poetry is installed successfully:  
+   ✅ Confirm that Poetry is installed successfully:  
    ```bash
    poetry --version
    ```
 
 ### **3. Install Project Dependencies**  
-   Install all dependencies listed in `pyproject.toml` with the following command:  
+   📦 Install all dependencies listed in `pyproject.toml` with:  
    ```bash
    poetry install
    ```
 
 ### **4. Execute the Program**  
-   Run the program using Poetry:  
+   ▶️ Run the program using Poetry:  
    ```bash
    poetry run get-papers-list
    ```
 
 ---
 
-## **Key Features**  
+## 🌟 **Key Features**  
 
-- **Author and Topic Filtering**: Search for PubMed articles by specific authors and topics.  
-- **Date Range**: Limit the search results to articles published within a specified date range.  
-- **Data Export**: Export search results as a CSV file for further analysis.  
-- **User Interface**: Interactive input form built using Streamlit.  
-
----
-
-## **Dependencies**  
-
-The following tools and libraries are used in the project:  
-
-- **[Pandas](https://pandas.pydata.org/)**: Used for data manipulation and exporting search results to CSV.  
-- **[BioPython](https://biopython.org/)**: Accesses the PubMed database via NCBI’s Entrez module.  
-- **[Streamlit](https://streamlit.io/)**: Provides a simple and interactive web interface for user inputs and results display.  
-- **[Poetry](https://python-poetry.org/)**: Manages project dependencies and packaging, ensuring a reproducible environment.  
+- 📝 **Author and Topic Filtering**: Search for PubMed articles by specific authors and topics.  
+- 📅 **Date Range**: Limit search results to articles published within a specified date range.  
+- 📤 **Data Export**: Export search results as a CSV file for further analysis.  
+- 🌐 **User Interface**: Interactive input form built using Streamlit.  
 
 ---
 
-## **Contribution**  
+## 📚 **Dependencies**  
 
-Contributions are welcome! If you’d like to contribute to this project, please fork the repository, make your changes, and submit a pull request.  
+This project uses the following tools and libraries:  
+
+- 🐼 **[Pandas](https://pandas.pydata.org/)**: For data manipulation and exporting search results to CSV.  
+- 🧬 **[BioPython](https://biopython.org/)**: Accesses PubMed via NCBI’s Entrez module.  
+- 🌐 **[Streamlit](https://streamlit.io/)**: Provides a simple, interactive web interface for user input and results display.  
+- 🛠️ **[Poetry](https://python-poetry.org/)**: Manages project dependencies and packaging.  
+
+---
+
+## 🤝 **Contribution**  
+
+Contributions are welcome! 🎉 If you’d like to contribute:  
+
+1. Fork the repository.  
+2. Make your changes.  
+3. Submit a pull request.  
 
 For any issues, feel free to open a new issue in the GitHub repository.  
 
 ---
 
-## **License**  
+## 📝 **License**  
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.  
 
----  
