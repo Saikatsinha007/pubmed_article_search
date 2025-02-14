@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+pubmed_article_search.egg-info/PKG-INFO
+pubmed_article_search.egg-info/SOURCES.txt
+pubmed_article_search.egg-info/dependency_links.txt
+pubmed_article_search.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pubmed-article-search
+Version: 0.1.0
+Summary: A tool to search and retrieve PubMed articles, filter by author and topic, and export results to CSV
+Home-page: https://github.com/Saikatsinha007/PubMed-Article-Search.git
+Author: Your Name
+Author-email: Saikat Sinha <saikatsinha21@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# PubMed Article Search and Analysis Toolkit
+
+This project provides a toolkit to search and analyze PubMed articles using a Python module and a Streamlit frontend.
