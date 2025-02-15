@@ -25,6 +25,7 @@ get-papers-list --topics "CRISPR COVID" --authors "Zhang, Doudna" --start_date 2
 ```
 
 <img src="https://github.com/user-attachments/assets/ee012491-daf2-4d08-a5c1-1d7ee7fcd51a" alt="Screenshot 2025-02-13 161704" width="500">
+![Screenshot 2025-02-13 161631](https://github.com/user-attachments/assets/41dac1f9-c081-4f87-b903-300728d63482)
 
 ---
 
